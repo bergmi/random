@@ -1,0 +1,32 @@
+plugins {
+//    id 'io.franzbecker.gradle-lombok' version '1.14'
+
+    id 'idea'
+
+    id 'java'
+
+    id 'application'
+}
+
+sourceSets {
+    main.java.srcDirs = ['src/main/java', 'src/main/test']
+    main.resources.srcDirs = ['src/main/resources']
+
+    test {
+        java {
+            srcDirs = ['src/main/test']
+        }
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.junit.jupiter:junit-jupiter-api:5.3.2'
+    implementation 'junit:junit:4.12'
+}
+
+mainClassName = 'Simulator'
+
