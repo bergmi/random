@@ -1,4 +1,4 @@
-The Hospital Simulator - V1.0 - Michael Berg
+﻿The Hospital Simulator - V1.0 - Michael Berg
 
 Basic gradle tasks:
 
@@ -10,7 +10,7 @@ Run the program on the command line:
 
 1) run gradlew build in the root directory
 2) navigate to ./build/libs
-3) run java -cp hospital-simulation.jar Simulator *patiens* *drugs* (see below for requested argument format)
+3) run java -cp hospital-simulation.jar Simulator *patients* *drugs* (see below for requested argument format)
 
 *----------------------------------------------------------------------------------------------------------------------*
 *----------------------------------------------------------------------------------------------------------------------*
